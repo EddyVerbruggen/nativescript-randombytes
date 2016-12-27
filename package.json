@@ -1,0 +1,29 @@
+{
+  "name": "nativescript-randombytes",
+  "version": "1.0.0",
+  "description": "NativeScript polyfill for Node randombytes",
+  "main": "randombytes-native",
+  "nativescript": {
+    "platforms": {
+      "android": "2.3.0",
+      "ios": "2.3.0"
+    }
+  },
+  "repository": {
+   "type": "git",
+    "url": "https://github.com/EddyVerbruggen/nativescript-randombytes.git"
+  },
+  "keywords": [
+    "ecosystem:nativescript",
+    "NativeScript",
+    "Node",
+    "Android",
+    "iOS",
+    "randombytes"
+  ],
+  "author": {
+    "name": "Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com"
+  },
+  "license": "MIT"
+}
