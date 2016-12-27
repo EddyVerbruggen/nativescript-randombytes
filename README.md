@@ -1,4 +1,5 @@
 # NativeScript randombytes shim
+The [randombytes package](https://www.npmjs.com/package/randombytes) doesn't work in the {N} runtime, so replace it by this package if you need to.
 
 ## Installation
 ```sh
@@ -10,11 +11,11 @@ tns plugin add nativescript-randombytes
 ```js
 var randomBytes = require('nativescript-randombytes');
 
-// sync
+// sync usage
 console.log("randomBytes: " + randomBytes(16));
 
-// async
-randomBytes(16, function (result) {
+// async usage
+randomBytes(16, function (ignore, result) {
   console.log("randomBytes async: " + result);
 })
 ```
